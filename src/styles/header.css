@@ -30,6 +30,7 @@
   font-weight: 500;
   letter-spacing: 0.8px;
   text-align: center;
+  cursor: pointer;
 }
 .menu-item::before {
   content: "";
@@ -40,10 +41,13 @@
   transition: all 0.3s ease-in-out;
   height: 2px;
   border-radius: 10px;
-  background-color: rgb(255, 236, 236);
+  background-color: #ffbc13;
 }
 .menu-item:hover::before {
   transform: scaleX(1);
+}
+.menu-item-active::before {
+  transform: scaleX(1) !important;
 }
 .header-title {
   position: absolute;
@@ -84,11 +88,12 @@
   color: black;
 }
 .header-scroll > .menu-container-lg > .menu-item::before {
-  background-color: rgb(146, 216, 232);
+  background-color: #ffbc13;
 }
 .header-scroll .header-title {
   display: block !important;
 }
+
 /* mobile screens */
 @media screen and (max-width: 786px) {
   .menu-container-lg {

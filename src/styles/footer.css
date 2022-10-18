@@ -1,0 +1,120 @@
+.footer {
+  width: 100%;
+  /* padding: 10px;s */
+  /* padding-top: 40px; */
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffbc13;
+}
+.footer-container {
+  position: relative;
+  width: 95%;
+  border-radius: 40px;
+  min-height: 40vh;
+  background-color: #000000f6;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-title {
+  position: relative;
+  text-align: left;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 5%;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+.footer-title > span {
+  position: relative;
+  padding: 10px;
+}
+.footer-title > span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 40%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #ffbc13;
+}
+.footer-desc {
+  color: white;
+  text-align: left;
+  margin-left: 5%;
+  padding: 0 20px;
+  /* width: 40%; */
+}
+.f-quote-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 89%;
+}
+.footer-contact {
+  padding-right: 5%;
+  margin: 20px;
+  padding-top: 10px;
+  text-align: right;
+  width: 30%;
+}
+.footer-subtitle {
+  color: white;
+}
+.footer-subtitle > span {
+  position: relative;
+  padding-bottom: 5px;
+}
+.footer-subtitle > span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 0;
+  /* transform: translateX(-50%); */
+  width: 40%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #ffbc13;
+}
+.footer-address,
+.footer-mobile {
+  color: white;
+}
+
+@media screen and (max-width: 786px) {
+  .footer-contact {
+    padding-left: 5%;
+    margin: 20px;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: left;
+    width: 70%;
+  }
+  .footer-desc {
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+    padding: 0 20px;
+    width: 80%;
+  }
+  .footer-subtitle > span::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* transform: translateX(-50%); */
+    width: 40%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #ffbc13;
+  }
+}

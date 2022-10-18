@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
+import FeaturedWork from "../components/home/FeaturedWork";
 import GetQuote from "../components/home/GetQuote";
 import Hero from "../components/home/Hero";
 import RecentWorks from "../components/home/RecentWorks";
 import Services from "../components/home/Services";
+import Testimonial from "../components/home/Testimonial";
 import "../styles/home.css";
 function Home() {
   useEffect(() => {
@@ -25,6 +27,8 @@ function Home() {
       <GetQuote />
       <RecentWorks />
       <Services />
+      <FeaturedWork />
+      <Testimonial />
     </div>
   );
 }
