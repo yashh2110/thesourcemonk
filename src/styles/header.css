@@ -53,23 +53,24 @@
   position: absolute;
   left: 0;
   top: 50%;
-  margin-left: 25px;
+  margin-left: 15px;
   font-weight: 600;
   transform: translateY(-50%);
   display: none;
-  padding: 10px 0;
+  padding: 5px 0;
   letter-spacing: 1px;
-  border-bottom: 3px solid rgb(48, 150, 179);
+  color: black;
+  /* border-bottom: 3px solid rgb(48, 150, 179); */
 }
 .header-title::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 100%;
   width: 50%;
   border-radius: 10px;
-  height: 2px;
-  background-color: rgb(48, 150, 179);
-  right: 0;
+  height: 3.5px;
+  background-color: #ffbc13;
+  left: 0;
 }
 .header-scroll {
   background-color: white;
