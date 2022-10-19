@@ -1,57 +1,34 @@
 import React from "react";
 import { Link as Rlink } from "react-router-dom";
 import { Link } from "react-scroll";
+import { HashLink } from "react-router-hash-link";
 import "../../styles/header.css";
 function Header() {
   return (
     <div className="header">
-      <div className="header-title">Makineni Projects</div>
+      <Rlink className="header-title" style={{ textDecoration: "none" }} to="/">
+        Makineni Projects
+      </Rlink>
       <div className="menu-container-lg">
-        <Link
+        <Rlink
           activeClass="menu-item-active"
           className="menu-item"
-          smooth
-          spy
-          to="about"
+          to="aboutus"
         >
           About Us
-        </Link>
-        <Link
-          activeClass="menu-item-active"
-          className="menu-item"
-          smooth
-          spy
-          to="work"
-        >
+        </Rlink>
+        <Rlink className="menu-item" to="works">
           Our Work
-        </Link>
-        <Link
-          activeClass="menu-item-active"
-          className="menu-item"
-          smooth
-          spy
-          to="contact"
-        >
-          Contact Us
-        </Link>
-        <Link
-          activeClass="menu-item-active"
-          className="menu-item"
-          smooth
-          spy
-          to="services"
-        >
+        </Rlink>
+        <HashLink className="menu-item" smooth to="/#services">
           Services
-        </Link>
-        <Link
-          activeClass="menu-item-active"
-          className="menu-item"
-          smooth
-          spy
-          to="featured"
-        >
+        </HashLink>
+        <HashLink className="menu-item" smooth to="/#featured">
           Featured Works
-        </Link>
+        </HashLink>
+        <HashLink className="menu-item" smooth to="/#footer">
+          Contact Us
+        </HashLink>
       </div>
     </div>
   );

@@ -1,0 +1,64 @@
+.about {
+  margin-top: 66px;
+  /* padding: 10px; */
+}
+
+.about-title {
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+}
+.about-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  /* padding: 10px; */
+  text-align: left;
+}
+.about-subtitle > span {
+  position: relative;
+  margin-top: 15px;
+
+  padding-bottom: 5px;
+}
+.about-subtitle > span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  /* transform: translateX(-50%); */
+  width: 50%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #ffbc13;
+}
+/* for the underline of title */
+.about-title > span {
+  padding: 5px;
+  position: relative;
+  font-weight: 500;
+}
+.about-title > span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #ffbc13;
+}
+.about-content {
+  padding: 5px 10%;
+}
+.about-desc {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 28px;
+}
+.about-section {
+  margin-top: 50px;
+}

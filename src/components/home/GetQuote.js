@@ -6,7 +6,7 @@ function GetQuote() {
     <div className="quote-container">
       <p className="quote-text">Get in touch with the best in the field</p>
       <Button variant="contained" className="quoteBtn">
-        Get Quote
+        Call Us
       </Button>
     </div>
   );

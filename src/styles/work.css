@@ -1,0 +1,152 @@
+.work {
+  margin-top: 66px;
+  margin-bottom: 30px;
+  width: 100%;
+  /* height: 100vh; */
+  min-height: 50vh;
+}
+.work-title {
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+}
+/* for the underline of title */
+.work-title > span {
+  padding: 5px;
+  position: relative;
+  font-weight: 500;
+}
+.work-title > span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #ffbc13;
+}
+
+.work-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.work-item {
+  margin: 10px;
+  padding: 0px;
+  cursor: pointer;
+}
+.work-item > span {
+  padding: 10px;
+  position: relative;
+  font-weight: 500;
+}
+.work-item > span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2.5px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background-color: #ffbc13;
+}
+.work-item > span:hover::before {
+  width: 50%;
+}
+.work-item-active > span {
+  font-weight: 600;
+}
+.work-item-active > span::before {
+  width: 50%;
+}
+.work-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.wg-item {
+  position: relative;
+  width: 31%;
+  height: 50vh;
+  padding: 2px;
+  margin: 10px;
+}
+.wg-img-container {
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  /* height: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wg-details {
+  position: absolute;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    #000,
+    rgba(51, 51, 51, 0.251),
+    rgba(118, 118, 118, 0.14),
+    rgba(255, 255, 255, 0)
+  );
+  display: flex;
+  align-items: flex-end;
+}
+.wg-title {
+  position: relative;
+  text-align: left;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.wg-title::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 50%;
+  height: 2.5px;
+  border-radius: 10px;
+  background-color: #ffbc13;
+}
+@media screen and (max-width: 786px) {
+  .wg-item {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    padding: 0px;
+    margin: 10px;
+  }
+  .wg-details {
+    position: absolute;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top,
+      #000,
+      rgba(51, 51, 51, 0.558),
+      rgba(255, 255, 255, 0)
+    );
+    display: flex;
+    align-items: flex-end;
+  }
+}
