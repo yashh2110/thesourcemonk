@@ -24,7 +24,7 @@ function Home() {
   return (
     <div className="home-container">
       <Hero />
-      <GetQuote />
+      {/* <GetQuote /> */}
       <RecentWorks />
       <Services />
       <FeaturedWork />
