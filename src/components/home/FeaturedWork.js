@@ -47,8 +47,8 @@ function FeaturedWork() {
   return (
     <div className="fw-container" id="featured">
       <ParallaxBanner
-        layers={[{ image: fwbg, speed: -20 }]}
-        className="aspect-[2/1] fw-bg-container"
+        layers={[{ image: fwbg, speed: -25 }]}
+        className="fw-bg-container"
       >
         {/* <div className="fw-bg-container"> */}
         <div className="fw-overlay">

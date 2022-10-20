@@ -376,7 +376,7 @@
   position: relative;
   margin-top: 80px;
   width: 100%;
-  height: 80vh;
+  height: 85vh;
 }
 .fw-bg-container {
   position: absolute;
@@ -570,6 +570,12 @@
   /* .rw-slider {
     margin-bottom: 0 !important;
   } */
+  .fw-title {
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 25px;
+    font-size: 2rem;
+  }
   .serviceSubContainer {
     margin-top: 0;
   }
