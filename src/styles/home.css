@@ -535,6 +535,30 @@
     font-size: 1.1rem;
     width: 75%;
   }
+  .hero-button::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 30%;
+    height: 30%;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    border-top: 2px solid rgb(244, 255, 212);
+    border-left: 2px solid rgb(244, 255, 212);
+  }
+  .hero-button::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    transition: all 0.3s ease-in-out;
+    width: 30%;
+    height: 30%;
+    border-radius: 3px;
+    border-bottom: 2px solid rgb(244, 255, 212);
+    border-right: 2px solid rgb(244, 255, 212);
+  }
   .quote-text {
     font-size: 0.9rem;
     text-align: center;
