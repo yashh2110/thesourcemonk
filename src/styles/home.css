@@ -76,6 +76,7 @@
   text-transform: capitalize !important;
   background-color: transparent !important;
   transition: all 0.2s ease;
+  box-shadow: none !important;
 }
 
 .hero-button::before {
