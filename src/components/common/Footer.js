@@ -13,7 +13,7 @@ function Footer() {
       <div className="footer-container">
         <div>
           <p className="footer-title">
-            <span>TheSourcemonk.com</span>
+            <span>TheSourcemonk</span>
           </p>
           <p className="footer-desc">
             “knowledge is not skill, knowledge plus ten thousand times is skill”
