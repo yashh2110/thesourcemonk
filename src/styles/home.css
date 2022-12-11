@@ -88,8 +88,8 @@
   height: 30%;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
-  border-top: 4px solid rgb(244, 255, 212);
-  border-left: 4px solid rgb(244, 255, 212);
+  border-top: 4px solid rgb(255, 255, 255);
+  border-left: 4px solid rgb(254, 254, 254);
 }
 .hero-button::after {
   content: "";
@@ -100,8 +100,8 @@
   width: 30%;
   height: 30%;
   border-radius: 3px;
-  border-bottom: 4px solid rgb(244, 255, 212);
-  border-right: 4px solid rgb(244, 255, 212);
+  border-bottom: 4px solid rgb(255, 255, 255);
+  border-right: 4px solid rgb(255, 255, 255);
 }
 .hero-button:hover::before,
 .hero-button:hover::after {
