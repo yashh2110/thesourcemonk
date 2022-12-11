@@ -9,26 +9,25 @@ function Header() {
   const [openNav, setOpenNav] = useState();
   return (
     <div className="header">
-      <Rlink className="header-title" style={{ textDecoration: "none" }} to="/">
-        Makineni Projects
-      </Rlink>
+      <HashLink
+        className="header-title"
+        style={{ textDecoration: "none" }}
+        smooth
+        to="/#hero">
+        TheSourcemonk.com
+      </HashLink>
       <div className="menu-container-lg">
-        <Rlink
+        <HashLink
           activeClass="menu-item-active"
           className="menu-item"
-          to="aboutus"
-        >
+          to="aboutus">
           About Us
-        </Rlink>
-        <Rlink className="menu-item" to="works">
-          Our Work
-        </Rlink>
+        </HashLink>
+
         <HashLink className="menu-item" smooth to="/#services">
           Services
         </HashLink>
-        <HashLink className="menu-item" smooth to="/#featured">
-          Featured Works
-        </HashLink>
+
         <HashLink className="menu-item" smooth to="/#footer">
           Contact Us
         </HashLink>
@@ -41,8 +40,7 @@ function Header() {
           }}
           className="menu-fab"
           aria-label="add"
-          onClick={() => setOpenNav(true)}
-        >
+          onClick={() => setOpenNav(true)}>
           <KeyboardBackspaceIcon className="menu-icon" />
         </Fab>
         <Drawer anchor="right" open={openNav} onClose={() => setOpenNav(false)}>
@@ -50,30 +48,24 @@ function Header() {
             sx={{ width: 250 }}
             role="presentation"
             onClick={() => setOpenNav(false)}
-            onKeyDown={() => setOpenNav(false)}
-          >
+            onKeyDown={() => setOpenNav(false)}>
             <div className="menu-title-container">
               <Rlink
                 className="menu-title"
                 style={{ textDecoration: "none" }}
-                to="/"
-              >
-                Makineni Projects
+                to="/">
+                TheSourcemonk
               </Rlink>
             </div>
             <div className="menu-sm">
-              <Rlink className="menu-item" to="aboutus">
+              <HashLink className="menu-item" to="aboutus">
                 About Us
-              </Rlink>
-              <Rlink className="menu-item" to="works">
-                Our Work
-              </Rlink>
+              </HashLink>
+
               <HashLink className="menu-item" smooth to="/#services">
                 Services
               </HashLink>
-              <HashLink className="menu-item" smooth to="/#featured">
-                Featured Works
-              </HashLink>
+
               <HashLink className="menu-item" smooth to="/#footer">
                 Contact Us
               </HashLink>

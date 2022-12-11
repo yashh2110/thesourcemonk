@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { rwImgs } from "../../data/recentWorks";
 import divider from "../../assets/icons/divder.svg";
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
-function RecentWorks() {
+function OurBelief() {
   const slider = useRef();
   const [activeIndex, setActiveIndex] = useState(1);
   useEffect(() => {}, []);
@@ -38,13 +38,16 @@ function RecentWorks() {
   return (
     <div className="recentContainer">
       <p className="rw-title">
-        <span>Our Recent Work</span>
+        <span>We believe </span>
       </p>
       <div className="rw-content">
         <div className="rw-content-desc">
           <p>
-            We promise your dream to a reality. Look into some of our recent
-            works
+            “knowledge is not skill, knowledge plus ten thousand times is
+            skill”. The team at TheSourcemonk has years of experience in the
+            field of Information Technology which provides services to the
+            clients seeking expertise in analysis, design, development, testing,
+            deployment & support.
           </p>
           <div className="navPaging">
             <p>
@@ -86,4 +89,4 @@ function RecentWorks() {
   );
 }
 
-export default RecentWorks;
+export default OurBelief;

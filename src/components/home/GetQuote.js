@@ -4,9 +4,9 @@ import React from "react";
 function GetQuote() {
   return (
     <div className="quote-container">
-      <p className="quote-text">Get in touch with the best in the field</p>
+      <p className="quote-text">Write us at contact@sourcemonk.com</p>
       <Button variant="contained" className="quoteBtn">
-        Call Us
+        Mail Us
       </Button>
     </div>
   );

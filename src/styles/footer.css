@@ -1,20 +1,20 @@
 .footer {
   width: 100%;
   /* padding: 10px;s */
-  /* padding-top: 40px; */
-  padding-bottom: 15px;
+  padding-top: 40px;
+  /* padding-bottom: 15px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffbc13;
+  /* background-color: #ffbc13; */
 }
 .footer-container {
   position: relative;
   width: 95%;
   border-radius: 40px;
   min-height: 40vh;
-  background-color: #000000f6;
+  background-color: #000000b4;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -98,6 +98,9 @@
 }
 
 @media screen and (max-width: 786px) {
+  .footer {
+    padding-top: 0;
+  }
   .footer-contact {
     padding-left: 5%;
     margin: 20px;

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import FeaturedWork from "../components/home/FeaturedWork";
 import GetQuote from "../components/home/GetQuote";
 import Hero from "../components/home/Hero";
-import RecentWorks from "../components/home/RecentWorks";
+import OurBelief from "../components/home/OurBelief";
 import Services from "../components/home/Services";
 import Testimonial from "../components/home/Testimonial";
 import "../styles/home.css";
@@ -25,10 +25,10 @@ function Home() {
     <div className="home-container">
       <Hero />
       {/* <GetQuote /> */}
-      <RecentWorks />
+      <OurBelief />
       <Services />
       <FeaturedWork />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </div>
   );
 }

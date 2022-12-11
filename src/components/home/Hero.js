@@ -5,19 +5,18 @@ import { useNavigate } from "react-router-dom";
 function Hero() {
   const navigate = useNavigate();
   return (
-    <div>
+    <div id="hero">
       <div className="hero-container">
         <p className="hero-title">
-          <span className="hero-title-1">Makineni</span> Projects
+          The Sourcemonk<span className="hero-title-1">.com</span>
         </p>
-        <p className="hero-desc">We make your dreams a reality</p>
+        <p className="hero-desc">A Place For Everyone Who Deserves Better</p>
 
         <Button
           variant="contained"
           className="hero-button"
-          onClick={() => navigate("/works")}
-        >
-          Our Work
+          onClick={() => navigate("/#services")}>
+          Our Services
         </Button>
         <GetQuote />
       </div>

@@ -1,12 +1,11 @@
-import housing from "../assets/services/housing.jpg";
-import sports from "../assets/services/sports.jpg";
-import swimming from "../assets/services/swimming.jpg";
+import big from "../assets/services/big.png";
+import nosql from "../assets/services/nosql.png";
+import web from "../assets/services/web.jpg";
 import badminton from "../assets/services/badminton.jpg";
-import peb from "../assets/services/peb.jpg";
+import app from "../assets/services/app.jpg";
 export const services = [
-  { img: housing, name: "Building Construction", id: 1 },
-  { img: swimming, name: "Swimming Pool Construction", id: 2 },
-  { img: sports, name: "Sports Complex Construction", id: 3 },
-  { img: badminton, name: "Badminton Courts Construction", id: 4 },
-  { img: peb, name: "PEB Structures", id: 5 },
+  { img: big, name: "BigData & Cloud", id: 1 },
+  { img: nosql, name: "NoSQL Services", id: 2 },
+  { img: web, name: "Apps & Web Development", id: 3 },
+  { img: app, name: "Application Development", id: 4 },
 ];
