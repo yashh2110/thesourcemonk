@@ -434,6 +434,7 @@
   height: calc(60vh - 120px);
   display: flex !important;
   align-items: center;
+  justify-content: center;
 }
 .fw-slider-item {
   position: relative;
@@ -613,7 +614,7 @@
   }
   .fw-slider-item {
     position: relative;
-    width: 95% !important;
+    /* width: 95% !important; */
     /* height: 55vh; */
   }
   .test-item-container {
