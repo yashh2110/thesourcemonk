@@ -39,7 +39,7 @@
   white-space: nowrap;
   /* border-bottom: 4px solid white; */
   padding: 10px;
-  text-shadow: 0 3px 5px rgba(58, 58, 58, 0.833);
+  text-shadow: 0 0.5px 5px rgba(58, 58, 58, 0.833);
   margin-bottom: 20px;
 }
 .hero-title-1 {
@@ -62,7 +62,7 @@
   color: rgb(201, 233, 240);
   margin: 5px 15px;
   text-align: center;
-  text-shadow: 0 3px 5px rgba(58, 58, 58, 0.833);
+  text-shadow: 0 0.5px 5px rgba(58, 58, 58, 0.833);
 }
 .hero-button {
   position: relative;
