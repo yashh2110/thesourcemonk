@@ -19,12 +19,12 @@ function AboutUs() {
           </p> */}
           <p className="about-desc">
             “Knowledge is not skill, knowledge plus ten thousand times is skill”
-            is what we believe. The team at TheSourcemonk has years of
-            experience in the field of Information Technology which provide
-            services to the clients seeking expertise in analysis, design,
-            development, testing, deployment & support. We ensure the highest
-            levels of quality, professionalism and satisfaction to our clients.
-            Simply put, we have the best skill to support you in your journey.
+            is what we believe. The team at Source Monks has years of experience
+            in the field of Information Technology which provide services to the
+            clients seeking expertise in analysis, design, development, testing,
+            deployment & support. We ensure the highest levels of quality,
+            professionalism and satisfaction to our clients. Simply put, we have
+            the best skill to support you in your journey.
           </p>
         </div>
         <div className="swimmingpool about-section">

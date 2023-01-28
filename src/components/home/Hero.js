@@ -10,7 +10,7 @@ function Hero() {
     <div id="hero">
       <div className="hero-container">
         <p className="hero-title">
-          The Sourcemonk<span className="hero-title-1">.com</span>
+          Source Monks<span className="hero-title-1">.com</span>
         </p>
         <p className="hero-desc">A Place For Everyone Who Deserves Better</p>
         <HashLink style={{ textDecoration: "none" }} smooth to="/#services">

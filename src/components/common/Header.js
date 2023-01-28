@@ -13,14 +13,16 @@ function Header() {
         className="header-title"
         style={{ textDecoration: "none" }}
         smooth
-        to="/#hero">
-        TheSourcemonk.com
+        to="/#hero"
+      >
+        Source Monks
       </HashLink>
       <div className="menu-container-lg">
         <HashLink
           activeClass="menu-item-active"
           className="menu-item"
-          to="aboutus">
+          to="aboutus"
+        >
           About Us
         </HashLink>
 
@@ -40,7 +42,8 @@ function Header() {
           }}
           className="menu-fab"
           aria-label="add"
-          onClick={() => setOpenNav(true)}>
+          onClick={() => setOpenNav(true)}
+        >
           <KeyboardBackspaceIcon className="menu-icon" />
         </Fab>
         <Drawer anchor="right" open={openNav} onClose={() => setOpenNav(false)}>
@@ -48,13 +51,15 @@ function Header() {
             sx={{ width: 250 }}
             role="presentation"
             onClick={() => setOpenNav(false)}
-            onKeyDown={() => setOpenNav(false)}>
+            onKeyDown={() => setOpenNav(false)}
+          >
             <div className="menu-title-container">
               <Rlink
                 className="menu-title"
                 style={{ textDecoration: "none" }}
-                to="/">
-                TheSourcemonk
+                to="/"
+              >
+                Source Monks
               </Rlink>
             </div>
             <div className="menu-sm">

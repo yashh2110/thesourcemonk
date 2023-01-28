@@ -44,7 +44,7 @@ function OurBelief() {
         <div className="rw-content-desc">
           <p>
             “knowledge is not skill, knowledge plus ten thousand times is
-            skill”. The team at TheSourcemonk has years of experience in the
+            skill”. The team at Source Monks has years of experience in the
             field of Information Technology which provides services to the
             clients seeking expertise in analysis, design, development, testing,
             deployment & support.
@@ -79,7 +79,8 @@ function OurBelief() {
             <div className="rw-slider-item ">
               <div
                 className="rw-img-container"
-                style={{ backgroundImage: `url(${e.img})` }}></div>
+                style={{ backgroundImage: `url(${e.img})` }}
+              ></div>
               {/* <img src={e.img} alt="rw1" className="rw-slider-img" /> */}
             </div>
           ))}

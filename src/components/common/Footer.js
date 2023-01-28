@@ -13,14 +13,14 @@ function Footer() {
       <div className="footer-container">
         <div>
           <p className="footer-title">
-            <span>TheSourcemonk</span>
+            <span>Source Monks</span>
           </p>
           <p className="footer-desc">
             “knowledge is not skill, knowledge plus ten thousand times is skill”
-            is what we believe. The team at TheSourcemonk has years of
-            experience in the field of Information Technology which provides
-            services to the clients seeking expertise in analysis, design,
-            development, testing, deployment & support.
+            is what we believe. The team at Source Monks has years of experience
+            in the field of Information Technology which provides services to
+            the clients seeking expertise in analysis, design, development,
+            testing, deployment & support.
           </p>
         </div>
         <div className="footer-contact">
@@ -28,14 +28,14 @@ function Footer() {
             <span>Addresses</span>
           </p>
           <p className="footer-address">
-            Plot No. A-1, BHEL, AIE, RC Puram, Hyderabad -500032
+            1079 Crescent Moon Dr, Fort Mill, SC, 29715
           </p>
 
-          <p className="footer-mobile">
+          {/* <p className="footer-mobile">
             <a href="tel:9676335577">+91 9676335577</a>
-          </p>
+          </p> */}
           {/* <p className="footer-mobile"></p> */}
-          <p className="footer-mobile">makineniinfra@gmail.com</p>
+          <p className="footer-mobile">hr@sourcemonks.com</p>
         </div>
       </div>
     </div>
